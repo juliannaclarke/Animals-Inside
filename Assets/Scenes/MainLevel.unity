@@ -672,11 +672,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   placeablePrefabs:
-  - {fileID: 5897591875254835366, guid: 161c1c3f5fd78bf4484397d83547b824, type: 3}
-  - {fileID: 3007086269552209886, guid: 94d57599108afb649a0b175b9ab60e50, type: 3}
-  - {fileID: 2174771812162778690, guid: cbc25942760c72d4db33c385c8e77e18, type: 3}
-  - {fileID: 7176745126521197292, guid: e91f4660d7f9058499951a2a370067fc, type: 3}
-  - {fileID: 7857807747180786917, guid: a4b925b9c5a9b4940a7ce4f190444c67, type: 3}
+  - {fileID: 7280646962437972181, guid: e84700ca9545e194d95acadddfb83e47, type: 3}
+  - {fileID: 209923007033672411, guid: d03f59cbf744d3744ad1c898406b95c1, type: 3}
+  - {fileID: 838883204589646714, guid: 7c45fd6c190043742862f420c9c9d681, type: 3}
+  - {fileID: 2724336190110369772, guid: 097685d342954274ca4c4d273df8a80f, type: 3}
+  - {fileID: 297198987716148937, guid: d3ff174f5bd505b48a2315e8c5ad6299, type: 3}
 --- !u!114 &1374519749
 MonoBehaviour:
   m_ObjectHideFlags: 0
