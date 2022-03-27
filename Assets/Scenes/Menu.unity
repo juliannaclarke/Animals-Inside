@@ -181,7 +181,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 89596d28343b59e40b1901cb80c3b0b5, type: 3}
+    m_Font: {fileID: 12800000, guid: f710817d26952ab47ac4374db90b229c, type: 3}
     m_FontSize: 36
     m_FontStyle: 0
     m_BestFit: 0
@@ -343,7 +343,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 89596d28343b59e40b1901cb80c3b0b5, type: 3}
+    m_Font: {fileID: 12800000, guid: f710817d26952ab47ac4374db90b229c, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
@@ -776,7 +776,7 @@ GameObject:
   - component: {fileID: 430874987}
   - component: {fileID: 430874986}
   m_Layer: 5
-  m_Name: Text
+  m_Name: DW link
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -995,7 +995,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -1270,7 +1270,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 89596d28343b59e40b1901cb80c3b0b5, type: 3}
+    m_Font: {fileID: 12800000, guid: f710817d26952ab47ac4374db90b229c, type: 3}
     m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
@@ -1564,7 +1564,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 4.30249, y: 2.228485}
+  m_AnchoredPosition: {x: 4.30249, y: 2.2285156}
   m_SizeDelta: {x: 228.9414, y: 118.5842}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &918369585
@@ -2035,7 +2035,7 @@ GameObject:
   - component: {fileID: 1410095501}
   - component: {fileID: 1410095500}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Website
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2081,7 +2081,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 89596d28343b59e40b1901cb80c3b0b5, type: 3}
+    m_Font: {fileID: 12800000, guid: f710817d26952ab47ac4374db90b229c, type: 3}
     m_FontSize: 55
     m_FontStyle: 0
     m_BestFit: 0
@@ -2399,7 +2399,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 89596d28343b59e40b1901cb80c3b0b5, type: 3}
+    m_Font: {fileID: 12800000, guid: f710817d26952ab47ac4374db90b229c, type: 3}
     m_FontSize: 36
     m_FontStyle: 0
     m_BestFit: 0
@@ -2432,7 +2432,7 @@ GameObject:
   - component: {fileID: 1808451104}
   - component: {fileID: 1808451103}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Instructions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2454,8 +2454,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000030518, y: -216}
-  m_SizeDelta: {x: 1041.0713, y: 304.3821}
+  m_AnchoredPosition: {x: 0.000030518, y: -180.263}
+  m_SizeDelta: {x: 1041.071, y: 360.527}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1808451103
 MonoBehaviour:
@@ -2490,9 +2490,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The images have to be placed around your house for the experience to work.
-    Follow the placement instructions on the website. Once the images are all in
-    place, then you can hit the Start button to launch the experience!
+  m_Text: The images should be placed around your house for the experience to work
+    as intended. Follow the placement instructions on the website. Once the images
+    are all in place, then you can hit the Start button to launch the experience!
 --- !u!222 &1808451104
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2559,7 +2559,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 89596d28343b59e40b1901cb80c3b0b5, type: 3}
+    m_Font: {fileID: 12800000, guid: f710817d26952ab47ac4374db90b229c, type: 3}
     m_FontSize: 55
     m_FontStyle: 0
     m_BestFit: 0
