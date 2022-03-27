@@ -474,3 +474,184 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009262 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.457 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1458ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1223ms)
+			LoadAssemblies (158ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (434ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (392ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (267ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1745 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.1 MB.
+System memory in use after: 76.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2199.
+Total: 4.218900 ms (FindLiveObjects: 0.290800 ms CreateObjectMapping: 0.067500 ms MarkObjects: 3.791800 ms  DeleteObjects: 0.067400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2775.860392 seconds.
+  path: Assets/Quirky Series Vol 3/Pets Vol 2
+  artifactKey: Guid(ff300e3f60dd13e4d9d2c3431be6ce1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Vol 3/Pets Vol 2 using Guid(ff300e3f60dd13e4d9d2c3431be6ce1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54e333da73d21e5a646d689d02adf8c') in 0.015321 seconds 
+  Import took 0.019887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.262282 seconds.
+  path: Assets/Quirky Series Vol 3/Pets Vol 2/Chipmunk
+  artifactKey: Guid(5766a228cfe63d147a092ce58174c30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Vol 3/Pets Vol 2/Chipmunk using Guid(5766a228cfe63d147a092ce58174c30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21587779d4dc75a8a05bfdf39e6b2b1c') in 0.008551 seconds 
+  Import took 0.011789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.248661 seconds.
+  path: Assets/Models/Chipmunk/Prefabs
+  artifactKey: Guid(dbb45b9c35a24d14791c44046c2e7d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Chipmunk/Prefabs using Guid(dbb45b9c35a24d14791c44046c2e7d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e5be4f96f75d8ea038e38c7224a208') in 0.008452 seconds 
+  Import took 0.012548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057977 seconds.
+  path: Assets/Models/Chipmunk/Prefabs/Chipmunk.prefab
+  artifactKey: Guid(03066cb81bb09484fa99f2efdc26ae5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Chipmunk/Prefabs/Chipmunk.prefab using Guid(03066cb81bb09484fa99f2efdc26ae5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b80a41091b6fac5cade2be260f6c08f') in 0.050278 seconds 
+  Import took 0.054510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.825011 seconds.
+  path: Assets/Models/Chipmunk/Models
+  artifactKey: Guid(3fc53c906ea6902469627f99aec1e703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Chipmunk/Models using Guid(3fc53c906ea6902469627f99aec1e703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770e7df9d7dd690a5997dd7afdb61565') in 0.007599 seconds 
+  Import took 0.010773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.089133 seconds.
+  path: Assets/Models/Chipmunk/Models/Chipmunk_LOD0.fbx
+  artifactKey: Guid(1bbcf8b84b952f84193d8b368f087707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Chipmunk/Models/Chipmunk_LOD0.fbx using Guid(1bbcf8b84b952f84193d8b368f087707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5704a52a0cafae472c6871728f87dfab') in 0.584337 seconds 
+  Import took 0.588334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.954848 seconds.
+  path: Assets/Models/Chipmunk/Prefabs/Chipmunk_LOD0.prefab
+  artifactKey: Guid(289fdef894fcb43458961d5ff816a91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Chipmunk/Prefabs/Chipmunk_LOD0.prefab using Guid(289fdef894fcb43458961d5ff816a91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de13c5ad10c9814ce3e49799c5210061') in 0.220345 seconds 
+  Import took 0.225868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.656520 seconds.
+  path: Assets/Models/Chipmunk/Demo
+  artifactKey: Guid(1bdd8346247df664b9e1099bb77442ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Chipmunk/Demo using Guid(1bdd8346247df664b9e1099bb77442ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f978a221a4112e1389de6112c3bd60') in 0.010121 seconds 
+  Import took 0.085991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.989221 seconds.
+  path: Assets/Models/Chipmunk/Demo/_Shader
+  artifactKey: Guid(6108f1e67c74a5a4fb4e63e6cb064c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Chipmunk/Demo/_Shader using Guid(6108f1e67c74a5a4fb4e63e6cb064c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453f4d3309258c1bc383e890acf457d0') in 0.009127 seconds 
+  Import took 0.012571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.946342 seconds.
+  path: Assets/Models/Chipmunk/Demo/_Shader/SoftSurface.shader
+  artifactKey: Guid(42f746eaacbc2a24d9618184e5392aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Chipmunk/Demo/_Shader/SoftSurface.shader using Guid(42f746eaacbc2a24d9618184e5392aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496538bda5dc52c8b80ca6789e517cb5') in 0.014981 seconds 
+  Import took 0.018609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 144.641040 seconds.
+  path: Assets/Quirky Series/Safari
+  artifactKey: Guid(30d956a5ff51c5f48b28d4454e8c5351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series/Safari using Guid(30d956a5ff51c5f48b28d4454e8c5351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9aa525bc188f848dde52a7c4ba2bd96') in 0.009469 seconds 
+  Import took 0.014098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.873213 seconds.
+  path: Assets/Models/Hippo/Prefabs
+  artifactKey: Guid(4369da12b99584a449c2821ed48e42b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Hippo/Prefabs using Guid(4369da12b99584a449c2821ed48e42b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06bc0f379f3e1acc87b54e1c62376850') in 0.007472 seconds 
+  Import took 0.013595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057758 seconds.
+  path: Assets/Models/Hippo/Prefabs/Hippo_LOD0.prefab
+  artifactKey: Guid(bd1e0645295250a4a8384dcf52eb8b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Hippo/Prefabs/Hippo_LOD0.prefab using Guid(bd1e0645295250a4a8384dcf52eb8b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e109adcd9c33e0ec36c27c5e1f1b3b4d') in 0.038254 seconds 
+  Import took 0.043741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 530.511520 seconds.
+  path: Assets/Quirky Series Vol 3/Safari Vol 2/Lion
+  artifactKey: Guid(1fd7c115f205f6a4fa68e4eb72b0a9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Vol 3/Safari Vol 2/Lion using Guid(1fd7c115f205f6a4fa68e4eb72b0a9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80be65b502568045b1d5fe2d3347ede') in 0.009611 seconds 
+  Import took 0.014359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.109527 seconds.
+  path: Assets/Quirky Series Vol 3/Pets Vol 2/Monkey
+  artifactKey: Guid(0746de6d34c94194fb9b30539060f9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Vol 3/Pets Vol 2/Monkey using Guid(0746de6d34c94194fb9b30539060f9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64dc0f65874a7f809ff134366da130c2') in 0.010941 seconds 
+  Import took 0.015294 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
