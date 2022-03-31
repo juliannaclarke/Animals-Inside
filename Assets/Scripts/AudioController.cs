@@ -9,11 +9,6 @@ public class AudioController : MonoBehaviour
 	private AudioSource[] clips;
 	private ActiveAnimal animal;
 
-	void Start()
-	{
-
-	}
-
 	void Update()
 	{
 		animal = GetComponent<ActiveAnimal>();
