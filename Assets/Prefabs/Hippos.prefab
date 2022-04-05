@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 1830553445841966641}
   - component: {fileID: 3816572591374275736}
   - component: {fileID: 2317255855423633374}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Hippos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78,6 +78,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isActive: 0
+  beingTracked: 0
   firstRead: 1
   timeReached: 0
   done: 0
@@ -408,9 +409,57 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8459035131529723962}
     m_Modifications:
+    - target: {fileID: 8112892677071721961, guid: bd1e0645295250a4a8384dcf52eb8b70, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8112892677071721963, guid: bd1e0645295250a4a8384dcf52eb8b70, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8112892677071721965, guid: bd1e0645295250a4a8384dcf52eb8b70, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8112892677071721967, guid: bd1e0645295250a4a8384dcf52eb8b70, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8112892677071721969, guid: bd1e0645295250a4a8384dcf52eb8b70, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8112892677071721971, guid: bd1e0645295250a4a8384dcf52eb8b70, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 8112892677071721973, guid: bd1e0645295250a4a8384dcf52eb8b70, type: 3}
       propertyPath: m_Name
       value: Hippo_LOD0 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8112892677071721973, guid: bd1e0645295250a4a8384dcf52eb8b70, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8112892677071721975, guid: bd1e0645295250a4a8384dcf52eb8b70, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8112892677071721977, guid: bd1e0645295250a4a8384dcf52eb8b70, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8112892677071721979, guid: bd1e0645295250a4a8384dcf52eb8b70, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8112892677071721981, guid: bd1e0645295250a4a8384dcf52eb8b70, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8112892677071721983, guid: bd1e0645295250a4a8384dcf52eb8b70, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8112892677071948245, guid: bd1e0645295250a4a8384dcf52eb8b70, type: 3}
       propertyPath: m_RootOrder
@@ -482,9 +531,57 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8459035131529723962}
     m_Modifications:
+    - target: {fileID: 8112892677071721961, guid: bd1e0645295250a4a8384dcf52eb8b70, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8112892677071721963, guid: bd1e0645295250a4a8384dcf52eb8b70, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8112892677071721965, guid: bd1e0645295250a4a8384dcf52eb8b70, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8112892677071721967, guid: bd1e0645295250a4a8384dcf52eb8b70, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8112892677071721969, guid: bd1e0645295250a4a8384dcf52eb8b70, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8112892677071721971, guid: bd1e0645295250a4a8384dcf52eb8b70, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 8112892677071721973, guid: bd1e0645295250a4a8384dcf52eb8b70, type: 3}
       propertyPath: m_Name
       value: Hippo_LOD0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8112892677071721973, guid: bd1e0645295250a4a8384dcf52eb8b70, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8112892677071721975, guid: bd1e0645295250a4a8384dcf52eb8b70, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8112892677071721977, guid: bd1e0645295250a4a8384dcf52eb8b70, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8112892677071721979, guid: bd1e0645295250a4a8384dcf52eb8b70, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8112892677071721981, guid: bd1e0645295250a4a8384dcf52eb8b70, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8112892677071721983, guid: bd1e0645295250a4a8384dcf52eb8b70, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8112892677071948245, guid: bd1e0645295250a4a8384dcf52eb8b70, type: 3}
       propertyPath: m_RootOrder

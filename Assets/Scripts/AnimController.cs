@@ -8,11 +8,9 @@ public class AnimController : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("anim controller");
         panel = GameObject.Find("BracketLayer");
     }
 
-    // Update is called once per frame
     void Update()
     {
         animals = GameObject.FindWithTag("TutorialAnimals");

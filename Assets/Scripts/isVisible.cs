@@ -26,16 +26,18 @@ public class isVisible : MonoBehaviour
         float y_sqr = Mathf.Pow((arCam.transform.position.y - transform.position.y), 2);
         float z_sqr = Mathf.Pow((arCam.transform.position.z - transform.position.z), 2);
         distanceFromCam = Mathf.Sqrt(x_sqr + y_sqr + z_sqr);
-
-        if (GeometryUtility.TestPlanesAABB(planes, boundingBox.bounds) && (distanceFromCam < 0.5))
+        
+        if (distanceFromCam < 0.01) //less than 1cm
         {
-            Debug.Log(name + ": " + distanceFromCam);
+            GetComponent<ActiveAnimal>().isActive = false;
+            //hide animal
+            arCam.cullingMask &= ~(1 << gameObject.layer);
+        }
+        else if (GeometryUtility.TestPlanesAABB(planes, boundingBox.bounds) && (distanceFromCam < 0.5) && distanceFromCam > 0.01)
+        {
             GetComponent<ActiveAnimal>().isActive = true;
+            //show animal
+            arCam.cullingMask |= (1 << gameObject.layer);
         }
-        else
-        {
-            //Debug.Log("Nothing has been detected");
-        }
-
     }
 }

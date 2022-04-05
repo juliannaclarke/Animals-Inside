@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 2500761582410456941}
   - component: {fileID: 172169830528956286}
   - component: {fileID: 247213329551526288}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Chipmunks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69,6 +69,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isActive: 0
+  beingTracked: 0
   firstRead: 1
   timeReached: 0
   done: 0
@@ -414,7 +415,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6021075430212623668}
   - component: {fileID: 75208403126240759}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: chipmunk_painting
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -497,9 +498,61 @@ PrefabInstance:
       propertyPath: m_ApplyRootMotion
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3503434831441298752, guid: 289fdef894fcb43458961d5ff816a91a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3503434831441298754, guid: 289fdef894fcb43458961d5ff816a91a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3503434831441298756, guid: 289fdef894fcb43458961d5ff816a91a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3503434831441298758, guid: 289fdef894fcb43458961d5ff816a91a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3503434831441298760, guid: 289fdef894fcb43458961d5ff816a91a, type: 3}
       propertyPath: m_Name
       value: Chipmunk_LOD0 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3503434831441298760, guid: 289fdef894fcb43458961d5ff816a91a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3503434831441298762, guid: 289fdef894fcb43458961d5ff816a91a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3503434831441298764, guid: 289fdef894fcb43458961d5ff816a91a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3503434831441298766, guid: 289fdef894fcb43458961d5ff816a91a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3503434831441298772, guid: 289fdef894fcb43458961d5ff816a91a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3503434831441298776, guid: 289fdef894fcb43458961d5ff816a91a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3503434831441298778, guid: 289fdef894fcb43458961d5ff816a91a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3503434831441298780, guid: 289fdef894fcb43458961d5ff816a91a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3503434831441298782, guid: 289fdef894fcb43458961d5ff816a91a, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3503434831441533288, guid: 289fdef894fcb43458961d5ff816a91a, type: 3}
       propertyPath: m_RootOrder
@@ -575,9 +628,61 @@ PrefabInstance:
       propertyPath: m_ApplyRootMotion
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3503434831441298752, guid: 289fdef894fcb43458961d5ff816a91a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3503434831441298754, guid: 289fdef894fcb43458961d5ff816a91a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3503434831441298756, guid: 289fdef894fcb43458961d5ff816a91a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3503434831441298758, guid: 289fdef894fcb43458961d5ff816a91a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3503434831441298760, guid: 289fdef894fcb43458961d5ff816a91a, type: 3}
       propertyPath: m_Name
       value: Chipmunk_LOD0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3503434831441298760, guid: 289fdef894fcb43458961d5ff816a91a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3503434831441298762, guid: 289fdef894fcb43458961d5ff816a91a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3503434831441298764, guid: 289fdef894fcb43458961d5ff816a91a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3503434831441298766, guid: 289fdef894fcb43458961d5ff816a91a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3503434831441298772, guid: 289fdef894fcb43458961d5ff816a91a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3503434831441298776, guid: 289fdef894fcb43458961d5ff816a91a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3503434831441298778, guid: 289fdef894fcb43458961d5ff816a91a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3503434831441298780, guid: 289fdef894fcb43458961d5ff816a91a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3503434831441298782, guid: 289fdef894fcb43458961d5ff816a91a, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3503434831441533288, guid: 289fdef894fcb43458961d5ff816a91a, type: 3}
       propertyPath: m_RootOrder
@@ -709,6 +814,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: brush
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2db72ce47e728514baae53d434a4fcba, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2db72ce47e728514baae53d434a4fcba, type: 3}
 --- !u!4 &2582727615935559562 stripped
@@ -782,6 +891,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 2db72ce47e728514baae53d434a4fcba, type: 3}
       propertyPath: m_Name
       value: brush (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2db72ce47e728514baae53d434a4fcba, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2db72ce47e728514baae53d434a4fcba, type: 3}

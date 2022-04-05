@@ -16,7 +16,6 @@ public class AudioController : MonoBehaviour
 		{
             if (!clips[2].isPlaying)
             {
-				Debug.Log("playing sounds");
 				PlayClip("sounds");
 
 				if (animal.firstRead)
