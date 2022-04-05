@@ -8,5 +8,4 @@ public class ActiveAnimal : MonoBehaviour
     public bool firstRead = true;
     public bool timeReached = false;
     public bool done = false;
-
 }

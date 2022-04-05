@@ -1,0 +1,5 @@
+d6e8ef3e5e064443898e8d26b3fb7d11|E:\owner\Y4_SUMMER\Animals Inside\Assets\2D\Anchors\AllAnimals.png|0.13
+b0cbc79b7b2b4719b85ce69f8863395d|E:\owner\Y4_SUMMER\Animals Inside\Assets\2D\Anchors\Chipmunks.jpg|0.130031
+ba623dc666bb47c29c11025841b8b23d|E:\owner\Y4_SUMMER\Animals Inside\Assets\2D\Anchors\Hippos.jpg|0.13
+1e2c6fddef33402092d36cc8c1f5ed8f|E:\owner\Y4_SUMMER\Animals Inside\Assets\2D\Anchors\Lions.jpg|0.13
+82d8a84137c143ffac5288b2429fdffc|E:\owner\Y4_SUMMER\Animals Inside\Assets\2D\Anchors\Monkeys.jpg|0.13

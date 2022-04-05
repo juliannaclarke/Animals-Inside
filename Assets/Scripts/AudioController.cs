@@ -21,13 +21,11 @@ public class AudioController : MonoBehaviour
 
 				if (animal.firstRead)
 				{
-					Debug.Log("playing narration");
 					PlayClip("narration");
 					GetComponent<ActiveAnimal>().firstRead = false;
 				}
 				else if (animal.timeReached && !animal.done)
 				{
-					Debug.Log(animal.name + " time reached");
 					PlayClip("second");
 					GetComponent<ActiveAnimal>().done = true;
 				}

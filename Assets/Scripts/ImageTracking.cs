@@ -23,8 +23,6 @@ public class ImageTracking : MonoBehaviour
     private bool curActive;
     private string prevActive;
 
-    bool visibility;
-
     private void Awake()
     {
         trackedImageManager = FindObjectOfType<ARTrackedImageManager>();

@@ -29,6 +29,7 @@ public class isVisible : MonoBehaviour
 
         if (GeometryUtility.TestPlanesAABB(planes, boundingBox.bounds) && (distanceFromCam < 0.5))
         {
+            Debug.Log(name + ": " + distanceFromCam);
             GetComponent<ActiveAnimal>().isActive = true;
         }
         else
