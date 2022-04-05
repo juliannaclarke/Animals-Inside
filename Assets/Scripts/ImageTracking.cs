@@ -20,6 +20,7 @@ public class ImageTracking : MonoBehaviour
 
     private void Awake()
     {
+        Screen.sleepTimeout = SleepTimeout.NeverSleep;
         trackedImageManager = FindObjectOfType<ARTrackedImageManager>();
 
         foreach (GameObject prefab in placeablePrefabs)

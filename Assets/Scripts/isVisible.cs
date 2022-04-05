@@ -31,13 +31,13 @@ public class isVisible : MonoBehaviour
         {
             GetComponent<ActiveAnimal>().isActive = false;
             //hide animal
-            arCam.cullingMask &= ~(1 << gameObject.layer);
+            //arCam.cullingMask &= ~(1 << gameObject.layer);
         }
-        else if (GeometryUtility.TestPlanesAABB(planes, boundingBox.bounds) && (distanceFromCam < 0.5) && distanceFromCam > 0.01)
+        else if (GeometryUtility.TestPlanesAABB(planes, boundingBox.bounds) && (distanceFromCam < 0.5) && (distanceFromCam >= 0.01))
         {
             GetComponent<ActiveAnimal>().isActive = true;
             //show animal
-            arCam.cullingMask |= (1 << gameObject.layer);
+            //arCam.cullingMask |= (1 << gameObject.layer);
         }
     }
 }
