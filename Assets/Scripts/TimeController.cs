@@ -9,7 +9,7 @@ public class TimeController : MonoBehaviour
 
     void Start()
     {
-        changeTime = 45.0f;
+        changeTime = 35.0f;
     }
     void Update()
     {
