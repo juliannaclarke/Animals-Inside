@@ -14,6 +14,11 @@ public class ButtonManager : MonoBehaviour
         //if they check skip tutorial then load main level
         SceneManager.LoadScene("Tutorial");
     }
+    public void returnToMenu()
+    {
+        //if they check skip tutorial then load main level
+        SceneManager.LoadScene("Menu");
+    }
 
     public void credits()
     {
